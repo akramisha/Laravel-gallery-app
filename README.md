@@ -10,3 +10,15 @@ A clean, functional image gallery built with **Laravel**, demonstrating full CRU
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
  
 </div>
+
+---
+ 
+## 📸 Screenshots
+ 
+> 💡 Add screenshots of the gallery grid, upload form, and edit view here once available.
+ 
+| Gallery View | Upload Form | Edit Image |
+| :---: | :---: | :---: |
+| ![Gallery](screenshots/gallery.png) | ![Upload](screenshots/upload.png) | ![Edit](screenshots/edit.png) |
+ 
+---
