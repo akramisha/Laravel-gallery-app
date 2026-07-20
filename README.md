@@ -19,7 +19,7 @@ A clean, functional image gallery built with **Laravel**, demonstrating full CRU
  
 | Gallery View | Edit Image |
 |:---:|:---:|
-| <img src="screenshots/gallery.png" width="300"> | <img src="screenshots/edit.png" width="300"> |
+| <img src="screenshots/gallery.png" width="250"> | <img src="screenshots/edit.PNG" width="250"> |
 ---
 
 ## 📖 Overview
