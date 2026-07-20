@@ -28,3 +28,14 @@ A clean, functional image gallery built with **Laravel**, demonstrating full CRU
 This project demonstrates the implementation of full **CRUD** (Create, Read, Update, Delete) functionality for media management, with an emphasis on secure file handling and clean database design.
  
 ---
+
+ 
+## 🧠 Key Learning: File Systems vs. Databases
+ 
+A core architectural decision in this project was moving away from storing raw image data (BLOBs) in the database. Instead, this app implements:
+ 
+- **Path-Based Storage** — Only the file path/string is stored in the MySQL database.
+- **Storage Abstraction** — Uses Laravel's `Storage` facade to keep the actual files in the local `storage/app/public` directory.
+**Why?** This keeps database performance high, prevents "DB bloat," and makes it straightforward to migrate to cloud storage (e.g. Amazon S3) later.
+ 
+---
