@@ -22,3 +22,9 @@ A clean, functional image gallery built with **Laravel**, demonstrating full CRU
 | ![Gallery](screenshots/gallery.png) | ![Upload](screenshots/upload.png) | ![Edit](screenshots/edit.png) |
  
 ---
+
+## 📖 Overview
+ 
+This project demonstrates the implementation of full **CRUD** (Create, Read, Update, Delete) functionality for media management, with an emphasis on secure file handling and clean database design.
+ 
+---
