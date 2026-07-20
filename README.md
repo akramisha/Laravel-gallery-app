@@ -19,7 +19,7 @@ A clean, functional image gallery built with **Laravel**, demonstrating full CRU
  
 | Gallery View | Edit Image |
 | :---: | :---: | :---: |
-| ![Gallery](screenshots/gallery.png) | ![Edit](screenshots/edit.png) |
+| ![Gallery](screenshots/gallery.png) | ![Edit](screenshots/edit.PNG) |
  
 ---
 
