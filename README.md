@@ -18,8 +18,8 @@ A clean, functional image gallery built with **Laravel**, demonstrating full CRU
 > 💡 Add screenshots of the gallery grid, upload form, and edit view here once available.
  
 | Gallery View | Edit Image |
-| ![Gallery](screenshots/gallery.png) | ![Edit](screenshots/edit.PNG) |
- 
+|:---:|:---:|:---:|
+| ![Gallery](screenshots/gallery.png) | ![Admin](screenshots/edit.PNG) 
 ---
 
 ## 📖 Overview
