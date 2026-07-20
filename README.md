@@ -1,5 +1,5 @@
-<div align="center">
 # 🖼️ Laravel Image Gallery App
+<div align="center">
  
 A clean, functional image gallery built with **Laravel**, demonstrating full CRUD media management with secure file handling and efficient database architecture.
  
@@ -66,3 +66,67 @@ A core architectural decision in this project was moving away from storing raw i
 - **Frontend:** Blade Templates, Tailwind CSS (or Bootstrap)
 - **File Handling:** Laravel Storage Facade
 ---
+
+## 🚀 Installation
+ 
+### Prerequisites
+- PHP >= 8.1
+- Composer
+- Node.js & npm
+- MySQL
+### Steps
+ 
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/laravel-gallery-app.git
+cd laravel-gallery-app
+ 
+# 2. Install dependencies
+composer install
+npm install && npm run dev
+ 
+# 3. Set up environment
+cp .env.example .env
+php artisan key:generate
+ 
+# 4. Configure database
+# Update your .env file with your local database credentials
+ 
+# 5. Run migrations
+php artisan migrate
+ 
+# 6. Link storage (so uploaded images are publicly accessible)
+php artisan storage:link
+ 
+# 7. Start the server
+php artisan serve
+```
+ 
+Then open **http://127.0.0.1:8000** in your browser.
+ 
+---
+ 
+## 🗺️ Roadmap
+ 
+- [ ] Cloud storage support (Amazon S3)
+- [ ] Image tagging/categorization
+- [ ] Bulk upload
+- [ ] Lightbox/full-screen image preview
+---
+ 
+## 🤝 Contributing
+ 
+Contributions, issues, and feature requests are welcome. Check the issues page on the repository.
+ 
+---
+ 
+## 📄 License
+ 
+This project is open-sourced under the [MIT License](LICENSE).
+ 
+---
+ 
+<div align="center">
+Made with ❤️ using Laravel
+ 
+</div>
