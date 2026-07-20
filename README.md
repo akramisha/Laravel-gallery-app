@@ -39,3 +39,15 @@ A core architectural decision in this project was moving away from storing raw i
 **Why?** This keeps database performance high, prevents "DB bloat," and makes it straightforward to migrate to cloud storage (e.g. Amazon S3) later.
  
 ---
+
+## ✨ Features
+ 
+| Feature | Description |
+|---------|--------------|
+| **Secure Uploads** | Image upload with MIME type validation — only images are accepted |
+| **Gallery View** | Responsive grid display of all uploaded images |
+| **Edit/Update** | Update image titles or replace existing files |
+| **Delete** | Removes both the database record and the physical file from the server |
+| **CSRF Protection** | Secure form handling via Laravel's built-in security features |
+ 
+---
