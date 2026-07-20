@@ -51,3 +51,18 @@ A core architectural decision in this project was moving away from storing raw i
 | **CSRF Protection** | Secure form handling via Laravel's built-in security features |
  
 ---
+
+ 
+## 🔒 Security Features
+ 
+- **Validation** — Strict rules for file size and allowed extensions
+- **Path Masking** — Files are stored in a way that prevents direct execution of malicious scripts
+---
+ 
+## 💻 Tech Stack
+ 
+- **Backend:** PHP 8.x, Laravel 10.x / 11.x
+- **Database:** MySQL
+- **Frontend:** Blade Templates, Tailwind CSS (or Bootstrap)
+- **File Handling:** Laravel Storage Facade
+---
